@@ -1,19 +1,11 @@
 /* Utilities */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 :root {
     --main-color:#000000; /* used for backgrounds, etc. plain white */
     --secondary-color:#F2F2F2; /* used for darker accents */
     --accent-color: #003A83; /* use for accents of blue */
     /* var(--var-name) */
-}
-
-@font-face {
-    font-family: Montserrat;
-    src: url("insurance-site/fonts/Montserrat-Regular.ttf");
-}  
-
-@font-face {
-    font-family: Roboto;
-    src: url("insurance-site/fonts/Roboto-Regular.ttf");
 }
 
 * {
