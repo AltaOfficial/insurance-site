@@ -1,4 +1,4 @@
-/* HERO SECTION */
+/* Hero Section */
 
 .hero {
     width: 100%;
@@ -54,4 +54,20 @@ h1.hero-text span {
     width: 600px;
     height: 330px;
     margin-left: 150px;
+}
+
+/* Info + CTA Section */
+
+.body-section-1 {
+    height: 796px;
+    display: grid;
+
+}
+
+.body-section-1 .hero-text {
+    font-size: 48px;
+}
+
+.info-avatar-img img {
+    background-color: black;
 }
