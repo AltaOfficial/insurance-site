@@ -51,9 +51,9 @@ h1.hero-text span {
 
 .hero-video iframe{
     background-color: var(--accent-color);
-    width: 600px;
-    height: 330px;
-    margin-left: 150px;
+    width: 700px;
+    height: 400px;
+    margin-left: 80px;
 }
 
 /* Info + CTA Section */
@@ -70,6 +70,11 @@ h1.hero-text span {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+.info-boxs-section .info-cta .info-text {
+    line-height: 30px;
+    margin: 32px 0px;
+}
+
 .body-section-1 .hero-text {
     font-size: 48px;
     margin-left: 80px;
@@ -79,10 +84,11 @@ h1.hero-text span {
     background-color: black;
     width: 108px;
     height: 108px;
-    border-radius: 25px;
+    border-radius: 100px;
 }
 
 .info-title-text {
     font-size: 24px;
     font-weight: 700;
+    margin-top: 40px;
 }
