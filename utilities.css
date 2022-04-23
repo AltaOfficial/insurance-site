@@ -17,6 +17,7 @@
 }
 
 .cta-btn {
+    transition: all 0.3s ease 0s;
     text-decoration: none;
     background-color: var(--accent-color);
     border-radius: 25px;
@@ -24,10 +25,19 @@
     padding: 10px 10px;
 }
 
+.cta-btn:hover {
+    opacity: 0.8;
+}
+
 .cta-link {
+    transition: all 0.3s ease 0s;
     color: var(--accent-color);
     text-decoration: none;
     font-weight: 700;
+}
+
+.cta-link:hover {
+    opacity: 0.8;
 }
 
 li, a, button {

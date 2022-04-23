@@ -50,7 +50,7 @@ h1.hero-text span {
 }
 
 .hero-video iframe{
-    background-color: aqua;
+    background-color: var(--accent-color);
     width: 600px;
     height: 330px;
     margin-left: 150px;
@@ -59,15 +59,30 @@ h1.hero-text span {
 /* Info + CTA Section */
 
 .body-section-1 {
-    height: 796px;
+    height: 700px;
     display: grid;
+    grid-template-rows: 1fr 2fr;
+}
 
+.info-boxs-section {
+    margin-left: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .body-section-1 .hero-text {
     font-size: 48px;
+    margin-left: 80px;
 }
 
 .info-avatar-img img {
     background-color: black;
+    width: 108px;
+    height: 108px;
+    border-radius: 25px;
+}
+
+.info-title-text {
+    font-size: 24px;
+    font-weight: 700;
 }
