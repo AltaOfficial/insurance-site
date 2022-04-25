@@ -45,3 +45,9 @@ li, a, button {
     font-weight: 500;
     text-decoration: none;
 }
+
+
+.body-title {
+    font-weight: 700;
+    font-size: 24px;
+}

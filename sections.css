@@ -87,8 +87,24 @@ h1.hero-text span {
     border-radius: 100px;
 }
 
-.info-title-text {
-    font-size: 24px;
-    font-weight: 700;
+.info-title .body-title {
     margin-top: 40px;
+}
+
+/* Contact Section */
+
+.contact-section {
+    height: 861px;
+}
+
+.body-text {
+    font-size: 36px;
+}
+
+.contact-section .hero-text {
+    font-size: 48px;
+}
+
+.form-section {
+    
 }
