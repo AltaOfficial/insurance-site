@@ -95,16 +95,34 @@ h1.hero-text span {
 
 .contact-section {
     height: 861px;
+    text-align: center;
+    border: solid 1px black;
+    align-items: center;
+    align-content: center;
 }
 
 .body-text {
     font-size: 36px;
+    margin-bottom: 50px;
 }
 
 .contact-section .hero-text {
     font-size: 48px;
 }
 
+.contact-form {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    height: 439px;
+    grid-area: contact-form;
+}
+
+.contact-form input {
+    padding: 5px;
+}
+
 .form-section {
-    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: ". contact-form .";
+
 }
