@@ -38,9 +38,11 @@ header {
 }
 
 /* Footer */
-
 footer {
-    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 20px 0px 20px;
 }
 
 .footer-links {
@@ -48,7 +50,7 @@ footer {
 }
 
 .footer-links li {
-    padding: 0px 40px 0px 0px;
+    padding: 0px 40px 0px 40px;
     display: inline-block;
 
     font-weight: Bold;
@@ -60,5 +62,5 @@ footer {
 }
 
 .footer-links li a:hover {
-    color: var(--acent-color);
+    color: var(--accent-color);
 }
