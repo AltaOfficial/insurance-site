@@ -126,3 +126,27 @@ h1.hero-text span {
     grid-template-areas: ". contact-form .";
 
 }
+
+/* Testimonial Section */
+.testimonial-section {
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+    height: 470px;
+    margin-left: 50px;
+    align-content: center;
+}
+
+.testimonial-section .hero-text {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+.testimonial-img {
+    align-items: center;
+    align-content: center;
+}
+
+.testimonial-img img{
+    width: 50%;
+}
