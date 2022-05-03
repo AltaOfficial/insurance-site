@@ -128,7 +128,19 @@ h1.hero-text span {
 
 
 .contact-form input {
-    padding: 5px;
+    padding: 10px;
+}
+
+.contact-form input[type="submit"] {
+    color: white;
+    background-color: var(--accent-color);
+    outline: none;
+    border: none;
+    border-radius: 6px;
+}
+
+.contact-form .set input{
+    margin-right: 10px;
 }
 
 .form-section {
