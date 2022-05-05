@@ -118,6 +118,7 @@ h1.hero-text span {
     padding: 20px;
     display: grid;
     grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: 
     "firstname lastname"
     "companyname"
@@ -125,7 +126,6 @@ h1.hero-text span {
     "message";
     text-align: start;
 }
-
 
 .contact-form input {
     padding: 10px;
