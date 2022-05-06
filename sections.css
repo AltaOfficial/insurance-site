@@ -97,7 +97,6 @@ h1.hero-text span {
 .contact-section {
     height: 861px;
     text-align: center;
-    border: solid 1px black;
     align-items: center;
     align-content: center;
 }
@@ -135,8 +134,10 @@ h1.hero-text span {
     grid-gap: 8px;
 }
 
-.contact-form input {
+.contact-form input, .contact-form textarea {
     padding: 10px;
+    resize: none;
+    outline: none;
 }
 
 .contact-form input[type="submit"] {
@@ -146,6 +147,7 @@ h1.hero-text span {
     border: none;
     border-radius: 6px;
     margin-top: 16px;
+    width: 130px;
 }
 
 .contact-form .set input{
@@ -176,6 +178,11 @@ h1.hero-text span {
 
 #message {
     grid-area: message;
+    height: 70px;
+}
+
+#message::placeholder {
+    text-align: top;
 }
 
 /* Testimonial Section */
