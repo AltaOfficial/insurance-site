@@ -116,15 +116,19 @@ h1.hero-text span {
     height: 439px;
     grid-area: contact-form;
     padding: 20px;
+    text-align: start;
+}
+
+.contact-form .inputs {
     display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
     grid-template-areas: 
     "firstname lastname"
-    "companyname"
-    "email"
-    "message";
-    text-align: start;
+    "companyname companyname"
+    "email email"
+    "message message";
+    grid-gap: 8px;
 }
 
 .contact-form input {
@@ -137,6 +141,7 @@ h1.hero-text span {
     outline: none;
     border: none;
     border-radius: 6px;
+    margin-top: 16px;
 }
 
 .contact-form .set input{
@@ -147,7 +152,26 @@ h1.hero-text span {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: ". contact-form .";
+}
 
+#firstname {
+    grid-area: firstname;
+}
+
+#lastname {
+    grid-area: lastname;
+}
+
+#companyname {
+    grid-area: companyname;
+}
+
+#email {
+    grid-area: email;
+}
+
+#message {
+    grid-area: message;
 }
 
 /* Testimonial Section */
