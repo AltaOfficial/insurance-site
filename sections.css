@@ -115,8 +115,12 @@ h1.hero-text span {
     border: 1px solid rgba(0, 0, 0, 0.5);
     height: 439px;
     grid-area: contact-form;
-    padding: 20px;
+    padding: 60px;
     text-align: start;
+}
+
+.contact-form .body-title {
+    margin: 10px 0px 15px 0px;
 }
 
 .contact-form .inputs {
