@@ -215,8 +215,10 @@ h1.hero-text span {
 .feature-quote-right-section {
     height: 600px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1.3fr;
 }
+
+
 
 /* Get Started Section */
 
@@ -224,10 +226,36 @@ h1.hero-text span {
     height: 300px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    align-content: center;
+}
+
+.start-ctas {
+    margin: auto 0px auto 75px;
 }
 
 .start-ctas .contact.cta-btn {
     border: 1px solid var(--accent-color);
     background: none;
     color: var(--accent-color) !important;
+    margin-left: 18px;
+}
+
+.start-ctas .cta-btn{
+    border-radius: 5px;
+    padding: 10px 50px 10px 50px;
+}
+
+.start-question-titles {
+    margin: auto;
+}
+
+.getstarted-title {
+    line-height: 45px;
+    font-size: 32px;
+}
+
+.getstarted-title-bold {
+    line-height: 45px;
+    font-weight: 700;
+    font-size: 32px;
 }
