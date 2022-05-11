@@ -131,7 +131,7 @@ h1.hero-text span {
     "companyname companyname"
     "email email"
     "message message";
-    grid-gap: 8px;
+    gap: 8px;
 }
 
 .contact-form input, .contact-form textarea {
@@ -223,22 +223,46 @@ h1.hero-text span {
 }
 
 .quote-details .author {
-    display: inline-block;
+    margin: auto;
 }
 
 .quote-details .author .avatar-img {
     width: 24px;
     height: 24px;
     background-color: var(--accent-color);
-    border-radius: 100px;
+    border-radius: 200px;
+    margin-right: 15px;
+}
+
+.quote-details .author .quote-author {
+
 }
 
 .quote-section .hero-text {
     font-size: 32px;
+    padding-bottom: 0px;
+}
+
+.quote-section .quote-text {
+    opacity: 50%;
+    width: 470px;
+    margin-bottom: 7px;
+}
+
+.quote-section .sub-text {
+    font-size: 18px;
+    line-height: 26px;
+    width: 470px;
+}
+
+.feature-video-section {
+    align-items: center;
 }
 
 .feature-video-section iframe {
-    margin: auto;
+    background-color: var(--accent-color);
+    width: 400px;
+    height: 230px;
 }
 
 /* Get Started Section */
