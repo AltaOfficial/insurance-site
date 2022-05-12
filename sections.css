@@ -213,6 +213,7 @@ h1.hero-text span {
 /* Feature Quote Section */
 
 .feature-quote-right-section {
+    align-content: center;
     height: 600px;
     display: grid;
     grid-template-columns: 1fr 1.3fr;
@@ -222,8 +223,9 @@ h1.hero-text span {
     margin-top: 48px;
 }
 
-.quote-details .author {
-    margin: auto;
+.quote-author {
+    display: flex;
+    align-items: center;
 }
 
 .quote-details .author .avatar-img {
@@ -232,10 +234,6 @@ h1.hero-text span {
     background-color: var(--accent-color);
     border-radius: 200px;
     margin-right: 15px;
-}
-
-.quote-details .author .quote-author {
-
 }
 
 .quote-section .hero-text {
@@ -247,6 +245,7 @@ h1.hero-text span {
     opacity: 50%;
     width: 470px;
     margin-bottom: 7px;
+    font-size: 14px;
 }
 
 .quote-section .sub-text {
@@ -256,13 +255,14 @@ h1.hero-text span {
 }
 
 .feature-video-section {
-    align-items: center;
+    
 }
 
 .feature-video-section iframe {
     background-color: var(--accent-color);
     width: 400px;
     height: 230px;
+    margin-top: auto;
 }
 
 /* Get Started Section */
