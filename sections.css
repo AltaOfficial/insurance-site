@@ -236,6 +236,10 @@ h1.hero-text span {
     margin-right: 15px;
 }
 
+.quote-section {
+    margin-bottom: 10px;
+}
+
 .quote-section .hero-text {
     font-size: 32px;
     padding-bottom: 0px;
@@ -255,7 +259,9 @@ h1.hero-text span {
 }
 
 .feature-video-section {
-    
+    display: flex;
+    align-items: center;
+    margin-left: auto;
 }
 
 .feature-video-section iframe {
@@ -263,6 +269,7 @@ h1.hero-text span {
     width: 400px;
     height: 230px;
     margin-top: auto;
+    margin-right: 150px;
 }
 
 /* Get Started Section */
