@@ -311,3 +311,38 @@ h1.hero-text span {
     font-weight: 700;
     font-size: 32px;
 }
+
+/* Affiliations Section */
+
+.affiliations-section {
+    height: 800px;
+}
+
+.affiliations-grids {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 70px;
+    padding: 0px 70px;
+}
+
+.affiliations-section .hero-text {
+    font-size: 48px;
+}
+
+.affiliations-section .hero-text span {
+    font-weight: 700;
+}
+
+.affiliations-top-section {
+    margin-bottom: 70px;
+}
+
+.affiliation-grid h1 {
+    margin-bottom: 24px;
+    font-size: 24px;
+}
+
+.affiliation-grid p {
+    font-size: 18px;
+}
