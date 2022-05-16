@@ -315,7 +315,15 @@ h1.hero-text span {
 /* Affiliations Section */
 
 .affiliations-section {
-    height: 800px;
+    height: 700px;
+    padding: 0px 70px;
+}
+
+.affiliations-section .sub-hero-text {
+    width: 800px;
+    line-height: 30px;
+    letter-spacing: -1.5%;
+    font-size: 16px;
 }
 
 .affiliations-grids {
@@ -323,11 +331,11 @@ h1.hero-text span {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 70px;
-    padding: 0px 70px;
 }
 
 .affiliations-section .hero-text {
     font-size: 48px;
+    padding-bottom: 20px;
 }
 
 .affiliations-section .hero-text span {
@@ -345,4 +353,5 @@ h1.hero-text span {
 
 .affiliation-grid p {
     font-size: 18px;
+    line-height: 30px;
 }
