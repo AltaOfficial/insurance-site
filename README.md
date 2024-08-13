@@ -1,2 +1,5 @@
 # insurance-site
-Insurance site for UNION SQUARE FINANCIAL SERVICES
+
+Redesign for UNION SQUARE FINANCIAL SERVICES http://unionsquarefinancialservices.com/
+
+![Before and After Comparison](./imgs/comparison.png "Before-and-After")
